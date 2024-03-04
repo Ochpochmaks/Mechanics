@@ -1,0 +1,35 @@
+
+ {
+   "name": "Taraxid",
+   "description": "T1 unit",
+   "flying": "true",
+   "health": 150,
+   "drag": 0.2,
+   "accel": 0.2,
+   "armor": 1,
+   "speed": 3,
+   "TargetAir": true,
+   "hitSize": 8,
+   "range": 150,
+   "weapons": [
+     {
+       "name": "exponcer",
+       "reload": 5,
+       "recoil": 5,
+       "bullet": {
+         "damage": 15,
+         "speed": 4,
+         "color": "ffff00",
+         "type": "BasicBulletType",
+       }
+       "type": "Weapon",
+     }
+   ]
+}
+
+
+
+
+
+
+
