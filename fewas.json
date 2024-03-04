@@ -1,0 +1,40 @@
+{
+   "name": "Fewas",
+   "description": "T3 unit. Mine ore with shield, can shoot",
+   "health": 670,
+   "armor": 13,
+   "mineTier": 4,
+   "mineSpeed": 3.2,
+   "buildSpeed": 3.8,
+   "flying": true,
+   "TargetAir": true,
+   "hitSize": 25,
+   "speed": 3,
+   "itemCapacity": 180,
+   "range": 210,
+   "rotateSpeed": 2,
+   "weapons": [
+    {
+     "name": "ultralazer",
+     "reload": 150,
+     "recoil": 17,
+     "bullet": {
+      "damage": 230,
+      "speed": 3.1,
+      "width": 20,
+      "height": 70,
+      "color": "[green[]]",
+      "type": "LaserBulletType"
+     }
+    }
+   ],
+   "abilities": [
+    {
+     "type": "ForceFieldAbility",
+     "regen": 2.8,
+     "max": 920,
+     "cooldown": 360,
+     "sides": 8
+    }
+   ]
+}

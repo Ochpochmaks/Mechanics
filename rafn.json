@@ -1,0 +1,49 @@
+{
+   "name": "Rafn",
+   "description": "T3 unit",
+   "health": 670,
+   "flying": true,
+   "armor": 7,
+   "speed": 2.6,
+   "TargetAir": true,
+   "hitSize": 35,
+   "range": 200,
+   "rotateSpeed": 3,
+   "weapons": [
+     {
+      "name": "tratatatata",
+      "recoil": 20,
+      "shootSound": "bolt",
+      "reload": 30,
+      "bullet": {
+        "damage": 65,
+        "speed": 2,
+        "width": 30,
+        "length": 90,
+        "type": "LaserBulletType"
+      }
+     },
+     {
+      "name": "vamkapeu",
+      "recoil": 15,
+      "reload": 10,
+      "bullet": {
+        "damage": 35,
+        "speed": 4,
+        "width": 20,
+        "height": 35,
+        "type": "BasicBulletType"
+      }
+     }
+   ],
+   "abilities": [
+     {
+      "type": "mindustry.entities.abilities.ForceFieldAbility",
+      "regen": 2,
+      "radius": 80,
+      "cooldown": 240,
+      "sides": 4,
+      "max": 400
+     }
+   ]
+}

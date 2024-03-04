@@ -1,0 +1,61 @@
+{
+   "name": "Garklaren",
+   "description": "T5 unit",
+   "health": 22000,
+   "armor": 9,
+   "flying": true,
+   "TargetAir": true,
+   "speed": 1.7,
+   "range": 230,
+   "hitSize": 40,
+   "rotateSpeed": 2.5,
+   "weapons": [
+     {
+      "name": "exterminator",
+      "recoil": 13,
+      "reload": 30,
+      "bullet": {
+       "damage": 520,
+       "speed": 2.6,
+       "width": 50,
+       "height": 50,
+       "type": "BasicBulletType"
+      }
+     },
+     {
+      "name": "mini-exterminator",
+      "recoil": 10,
+      "reload": 150,
+      "bullet": {
+       "damage": 25,
+       "width": 25,
+       "height": 25,
+       "speed": 2.9,
+       "type": "BasicBulletType"
+      }
+     },
+     {
+      "name": "lazer",
+      "shootSound": "bolt",
+      "recoil": 20,
+      "reload": 60,
+      "bullet": {
+       "damage": 65,
+       "width": 30,
+       "length": 130,
+       "speed": 2.8,
+       "type": "LaserBulletType"
+      }
+     }
+   ],
+   "abilities": [
+    {
+     "type": "mindustry.entities.abilities.ForceFieldAbility",
+     "regen": 2.8,
+     "max": 800,
+     "cooldown": 360,
+     "sides": 8,
+     "radius": 120
+    }
+   ]
+}

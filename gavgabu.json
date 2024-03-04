@@ -1,0 +1,61 @@
+{
+   "name": "Gavgabu",
+   "description": "T5 unit. Can shoot with shield",
+   "health": 1830,
+   "armor": 24,
+   "flying": true,
+   "TargetAir": true,
+   "speed": 3.5,
+   "rotateSpeed": 2.1,
+   "hitSize": 35,
+   "buildSpeed": 4,
+   "buildPower": 2,
+   "weapons": [
+    {
+     "name": "bu",
+     "reload": 240,
+     "recoil": 26,
+     "bullet": {
+      "damage": 150,
+      "speed": 1.8,
+      "width": 24,
+      "height": 24,
+      "type": "BasicBulletType"
+     }
+    },
+    {
+     "name": "gav",
+     "reload": 30,
+     "recoil": 15,
+     "bullet": {
+      "damage": 40,
+      "speed": 2.6,
+      "width": 25,
+      "height": 70,
+      "type": "LaserBulletType"
+     }
+    },
+    {
+     "name": "Democratic People's Republic of Korea",
+     "reload": 180,
+     "recoil": 23,
+     "bullet": {
+      "damage": 95,
+      "speed": 2.2,
+      "width": 30,
+      "height": 30,
+      "type": "BasicBulletType"
+     }
+    }
+   ],
+   "abilities": [
+    {
+     "type": "ForceFieldAbility",
+     "regen": 3.5,
+     "max": 1200,
+     "cooldown": 480,
+     "sides": 1488,
+     "radius": 150
+    }
+   ]
+}

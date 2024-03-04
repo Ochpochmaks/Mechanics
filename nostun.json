@@ -1,0 +1,19 @@
+{
+   "name": "Nostun",
+   "description": "Unit with shield. Just protects units",
+   "health": 1200,
+   "speed": 3,
+   "flying": true,
+   "armor": 10,
+   "hitSize": 20,
+   "abilities": [
+    {
+     "type": "ForceFieldAbility",
+     "regen": 3,
+     "max": 1000,
+     "sides": 12,
+     "cooldown": 180,
+     "radius": 200
+    }
+   ]
+}
